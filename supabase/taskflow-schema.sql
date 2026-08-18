@@ -25,6 +25,7 @@ create table if not exists public.task_groups (
 create index if not exists profiles_manager_id_idx on public.profiles(manager_id);
 create index if not exists profiles_role_level_idx on public.profiles(role_level);
 create index if not exists task_groups_status_idx on public.task_groups(status);
+create index if not exists task_groups_created_by_idx on public.task_groups(created_by);
 
 create or replace function public.set_updated_at()
 returns trigger language plpgsql set search_path = public as $$

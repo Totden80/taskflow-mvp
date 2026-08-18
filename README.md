@@ -7,7 +7,7 @@ MVP giao việc theo cây tài khoản, chạy thử không cần cài framework
 Yêu cầu Node.js 18+.
 
 ```bash
-node server.mjs
+node local-server.mjs
 ```
 
 Mở `http://localhost:4173`.
